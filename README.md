@@ -3,7 +3,7 @@
 This project was developed as a clinical decision support tool for cardiovascular risk assessment.
 
 ## 🚀 Live Demo
-[ΕΔΩ ΘΑ ΒΑΛΕΙΣ ΤΟ LINK ΑΠΟ ΤΟ STREAMLIT ΜΟΛΙΣ ΤΟ ΚΑΝΕΙΣ DEPLOY]
+(https://heart-disease-predictor-dim-petr82.streamlit.app/)
 
 ## 🛠️ Features
 - **Deep Learning Model**: Artificial Neural Network (ANN) trained on the Framingham dataset.

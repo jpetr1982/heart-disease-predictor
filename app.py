@@ -49,12 +49,17 @@ with col2:
     totChol = st.number_input("Χοληστερίνη (totChol)", 100, 600, 200)
     sysBP = st.number_input("Συστολική Πίεση (sysBP)", 80, 250, 120)
     diaBP = st.number_input("Διαστολική Πίεση (diaBP)", 40, 150, 80)
-    BMI = st.number_input("Δείκτης Μάζας Σώματος (BMI)", 10.0, 50.0, 24.5)
+    weight = st.number_input("Βάρος (kg)", 30.0, 250.0, 75.0)
+    height_cm = st.number_input("Ύψος (cm)", 100.0, 250.0, 175.0)
     heartRate = st.number_input("Καρδιακοί Παλμοί", 40, 150, 75)
     glucose = st.number_input("Γλυκόζη", 40, 500, 85)
 
 # 4. Υπολογισμός Pulse Pressure
 pulse_pressure = sysBP - diaBP
+
+# Υπολογισμός BMI (μετατροπή cm σε m)
+height_m = height_cm / 100
+BMI = weight / (height_m ** 2)
 
 # 5. Πρόβλεψη
 if st.button("🚀 Ανάλυση Κινδύνου"):

@@ -13,4 +13,5 @@ This project was developed as a clinical decision support tool for cardiovascula
 ## 🧪 Tech Stack
 - Python (Pandas, Scikit-learn)
 - Deep Learning (TensorFlow/Keras)
+- Visualization: Plotly (Gauge Charts), Matplotlib, Seaborn
 - Deployment (Streamlit Cloud)

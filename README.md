@@ -15,3 +15,5 @@ This project was developed as a clinical decision support tool for cardiovascula
 - Deep Learning (TensorFlow/Keras)
 - Visualization: Plotly (Gauge Charts), Matplotlib, Seaborn
 - Deployment (Streamlit Cloud)
+
+## Copyright (c) 2024 [Petridis Dimitris].
